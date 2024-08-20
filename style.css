@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    margin-top: 20px;
 }
 
 #skibidi-image {
@@ -18,9 +18,9 @@ body {
     cursor: pointer;
 }
 
-#cookie-button {
+#dollar-count {
     font-size: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
+    margin-top: 20px;
 }
+
 
