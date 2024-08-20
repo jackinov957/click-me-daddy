@@ -1,27 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
+    background-color: #f0f0f0;
 }
 
-#game-container {
+.container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px; /* Space between elements */
-    margin-top: 20px;
 }
 
-#skibidi-image {
-    width: 200px; /* Adjust width as needed */
+#skibidiImage {
+    width: 150px; /* Adjust the size as needed */
     height: auto;
-    cursor: pointer; /* Shows a pointer cursor to indicate it's clickable */
+    cursor: pointer;
+    margin-right: 20px;
 }
 
-#dollar-count {
-    font-size: 20px;
-    margin-top: 20px;
+#message {
+    font-size: 18px;
+    color: #333;
 }
-
 
