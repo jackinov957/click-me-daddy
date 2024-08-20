@@ -8,4 +8,3 @@ skibidiImage.addEventListener('click', function() {
     dollarCount++;
     dollarCountDisplay.textContent = 'Dollars: ' + dollarCount;
 });
-
